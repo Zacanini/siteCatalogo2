@@ -47,6 +47,9 @@ figcaption {
 .grid figure .escudoGrande{
     width: 30px;
 }
+.grid figure .escudoLyon{
+    width: 55px;
+}
 
 /* Estilo para imagens no hover (passar o mouse) */
 .grid figure img:hover {
