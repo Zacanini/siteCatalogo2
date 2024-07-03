@@ -90,6 +90,10 @@ span {
     width: 130px;
     margin-bottom: 20px;
 }
+.miniJogador2{
+    width: 180px;
+    margin-bottom: 80px;
+}
 /*painel superior com nome e foto jogador */
 
 /*container de grid dos campeonatos*/
@@ -216,6 +220,65 @@ span {
     /* Substitua por sua URL de imagem */
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+
+    /* Efeito de desfoque e opacidade */
+    filter: blur(3px) opacity(0.7);
+    /* Ajuste os valores conforme desejado */
+}
+.grid-container-mls {
+    position: absolute;
+    /* Posicionamento absoluto para o pseudo-elemento */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    /* Ajustes para a imagem de fundo */
+    background-image: url(imgs/messiMLS.jpg);
+    /* Substitua por sua URL de imagem */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* Efeito de desfoque e opacidade */
+    filter: blur(3px) opacity(0.7);
+    /* Ajuste os valores conforme desejado */
+}
+
+.grid-container-premierLeague {
+    position: absolute;
+    /* Posicionamento absoluto para o pseudo-elemento */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    /* Ajustes para a imagem de fundo */
+    background-image: url(imgs/saalah.jfif);
+    /* Substitua por sua URL de imagem */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* Efeito de desfoque e opacidade */
+    filter: blur(3px) opacity(0.7);
+    /* Ajuste os valores conforme desejado */
+}
+
+.grid-container-serieA {
+    position: absolute;
+    /* Posicionamento absoluto para o pseudo-elemento */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    /* Ajustes para a imagem de fundo */
+    background-image: url(imgs/ronaldinhoMilan.jpg);
+    /* Substitua por sua URL de imagem */
+    background-size: cover;
+    background-position: top;
     background-repeat: no-repeat;
 
     /* Efeito de desfoque e opacidade */
