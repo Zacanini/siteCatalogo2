@@ -1,0 +1,163 @@
+/*painel lateral flutuante */
+.ContainerpainelLateral {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    /* Fixo na tela */
+    top: 13%;
+    /* Posição inicial no topo */
+    width: 50px;
+    height:500px;
+    margin-left: 5px;
+    z-index: 100;
+
+    border: 2px solid rgba(0, 0, 0, 0.498);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2), -10px 0px 10px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.ContainerpainelLateral2 {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    /* Fixo na tela */
+    top: 13%;
+    /* Posição inicial no topo */
+    width: 50px;
+    height:500px;
+    margin-left: 5px;
+    z-index: 100;
+
+    border: 2px solid rgba(0, 0, 0, 0.498);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2), -10px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.item {
+    margin: 5px 0;
+    position: relative;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.item img {
+    backface-visibility: hidden;
+    width: 52px;
+}
+
+.item .liga1{
+    width: 90px;
+}
+.item .mlsEscudo{
+    width: 65px;
+}
+
+.item.flipped {
+    transform: rotateY(180deg);
+}
+
+.item:hover {
+    transform: scale(1.1);
+    /* Aumenta a imagem em 10% no hover */
+    cursor: pointer;
+}
+.item2 {
+    margin: 5px 0;
+    position: relative;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.item2 img {
+    backface-visibility: hidden;
+    width: 45px;
+}
+
+.item2.flipped {
+    transform: rotateY(180deg);
+}
+
+.item2:hover {
+    transform: scale(1.1);
+    /* Aumenta a imagem em 10% no hover */
+    cursor: pointer;
+}
+
+#botaoMais {
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+
+    border: 2px solid rgba(0, 0, 0, 0.498);
+    backdrop-filter: blur(10px);
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.116), -10px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 7px;
+    font-weight: 200;
+
+    overflow: hidden;
+
+
+}
+
+#botaoMais:hover {
+    cursor: pointer;
+}
+
+#botaoVoltar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+
+    border: 2px solid rgba(0, 0, 0, 0.498);
+    backdrop-filter: blur(10px);
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.116), -10px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 7px;
+
+    overflow: hidden;
+}
+
+#botaoVoltar:hover {
+    cursor: pointer;
+}
+
+.ativo {
+    position: sticky;
+    /* Fixa na rolagem */
+}
+
+@keyframes flutuar {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+    /* Eleva 5px */
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.elemento-flutuante {
+    animation: flutuar 2s ease-in-out infinite;
+    /* Animação infinita */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    /* Sombra para efeito de elevação */
+}
+/*painel lateral flutuante */

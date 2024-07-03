@@ -1,0 +1,58 @@
+.grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 colunas de largura igual */
+    
+    /* 4 linhas de altura igual, última linha 1fr */
+
+
+    gap: 5px;
+    /* Ajuste o espaçamento entre os itens da grade */
+    margin: 30px 200px 0 200px;
+    padding-bottom: 30px;
+
+    position: relative;
+}
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 8px;
+    color: #000000;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.grid figure img {
+    transition: transform 0.2s ease-in-out;
+    /* Transição suave para o efeito de hover */
+    cursor: pointer;
+    width: 35px;
+    /* Define o cursor como ponteiro para indicar clique */
+}
+.grid figure .escudoPequeno{
+    width: 45px;
+}
+.grid figure .escudoGrande{
+    width: 30px;
+}
+
+/* Estilo para imagens no hover (passar o mouse) */
+.grid figure img:hover {
+    transform: scale(1.1);
+    /* Aumenta a imagem em 10% no hover */
+    z-index: 1;
+    /* Garante que a imagem fique sobreposta a outros elementos no hover */
+
+}
