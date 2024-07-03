@@ -51,6 +51,10 @@ figcaption {
     width: 55px;
 }
 
+.grid figure .escudoPequenoSuper{
+    width: 75px;
+}
+
 /* Estilo para imagens no hover (passar o mouse) */
 .grid figure img:hover {
     transform: scale(1.1);
