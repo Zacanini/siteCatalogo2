@@ -75,6 +75,8 @@ span {
     color: rgb(255, 255, 255);
 
 }
+
+
 .miniJogador{
     width: 100px;
 }
@@ -94,13 +96,44 @@ span {
     width: 180px;
     margin-bottom: 80px;
 }
+.ronaldo{
+    width: 130px;
+}
+.lebrom{
+    width: 150px;
+    margin-bottom: 50px;
+}
+.benzema{
+    width: 140px;
+    margin-bottom: 20px;
+}
+.puyol{
+    width: 140px;
+    padding-bottom: 40px;
+}
+.romario{
+    width: 150px;
+    
+}
+.marta{
+    width: 130px;
+    margin-bottom: 30px;
+}
+.ronaldinho{
+    width: 130px;
+    margin-bottom: 29px;
+}
+.neymar{
+    margin-bottom: 20px;
+    width: 140px;
+}
 /*painel superior com nome e foto jogador */
 
 /*container de grid dos campeonatos*/
 /*brasileirao*/
 .titulo {
     font-family: "Dela Gothic One", sans-serif;
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing: 0.2rem;
     font-style: normal;
     text-align: center;
@@ -245,7 +278,6 @@ span {
     filter: blur(3px) opacity(0.7);
     /* Ajuste os valores conforme desejado */
 }
-
 .grid-container-premierLeague {
     position: absolute;
     /* Posicionamento absoluto para o pseudo-elemento */
@@ -265,7 +297,6 @@ span {
     filter: blur(3px) opacity(0.7);
     /* Ajuste os valores conforme desejado */
 }
-
 .grid-container-serieA {
     position: absolute;
     /* Posicionamento absoluto para o pseudo-elemento */
@@ -284,4 +315,557 @@ span {
     /* Efeito de desfoque e opacidade */
     filter: blur(3px) opacity(0.7);
     /* Ajuste os valores conforme desejado */
+}
+.grid-container-nba {
+    position: absolute;
+    /* Posicionamento absoluto para o pseudo-elemento */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+
+    /* Ajustes para a imagem de fundo */
+    background-image: url(imgs/antonyDaves.jpg);
+    /* Substitua por sua URL de imagem */
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+
+    /* Efeito de desfoque e opacidade */
+    filter: blur(3px) opacity(0.7);
+    /* Ajuste os valores conforme desejado */
+}
+
+.grid-container-conjuntoDeTreino{
+    position: absolute;
+    /* Posicionamento absoluto para o pseudo-elemento */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+
+    /* Ajustes para a imagem de fundo */
+    background-image: url(imgs/estadioReal.jfif);
+    /* Substitua por sua URL de imagem */
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+
+    /* Efeito de desfoque e opacidade */
+    filter: blur(3px) opacity(0.7);
+    /* Ajuste os valores conforme desejado */
+}
+
+.grid-container-versaoPlayer{
+    position: absolute;
+    /* Posicionamento absoluto para o pseudo-elemento */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+
+    /* Ajustes para a imagem de fundo */
+    background-image: url(imgs/campNou.jpg);
+    /* Substitua por sua URL de imagem */
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+
+    /* Efeito de desfoque e opacidade */
+    filter: blur(3px) opacity(0.7);
+    /* Ajuste os valores conforme desejado */
+}
+.grid-container-retroClube{
+    position: absolute;
+    /* Posicionamento absoluto para o pseudo-elemento */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+
+    /* Ajustes para a imagem de fundo */
+    background-image: url(imgs/finalChampions.jpg);
+    /* Substitua por sua URL de imagem */
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+
+    /* Efeito de desfoque e opacidade */
+    filter: blur(3px) opacity(0.7);
+    /* Ajuste os valores conforme desejado */
+}
+.grid-container-selecao{
+    position: absolute;
+    /* Posicionamento absoluto para o pseudo-elemento */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+
+    /* Ajustes para a imagem de fundo */
+    background-image: url(imgs/belgica.webp);
+    /* Substitua por sua URL de imagem */
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+     /* Efeito de desfoque e opacidade */
+     filter: blur(3px) opacity(0.7);
+     /* Ajuste os valores conforme desejado */
+}
+.grid-container-feminino{
+    position: absolute;
+    /* Posicionamento absoluto para o pseudo-elemento */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+
+    /* Ajustes para a imagem de fundo */
+    background-image: url(imgs/futebolFeminino.jpg);
+    /* Substitua por sua URL de imagem */
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+     /* Efeito de desfoque e opacidade */
+     filter: blur(3px) opacity(0.7);
+     /* Ajuste os valores conforme desejado */
+}
+.grid-container-cortaVento{
+    position: absolute;
+    /* Posicionamento absoluto para o pseudo-elemento */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+
+    /* Ajustes para a imagem de fundo */
+    background-image: url(imgs/maracana.webp);
+    /* Substitua por sua URL de imagem */
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+     /* Efeito de desfoque e opacidade */
+     filter: blur(3px) opacity(0.7);
+     /* Ajuste os valores conforme desejado */
+}
+
+/*container que nao sejam ligas:*/
+.containerCardPai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    border: 2px solid rgb(255, 253, 253);
+    border-radius: 20px;
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+
+    box-shadow: 0 5px 10px rgb(0, 0, 0);
+}
+.filhoUm {
+    position: relative;
+}
+.filhoDois{
+    position: relative;
+    margin-bottom: 30px;
+}
+/*container que nao sejam ligas:*/
+
+
+/*fundo dos container */
+.background-blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(imgs/kobyEjordan.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    z-index: 1;
+}
+.background-blur2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(imgs/Richard-Sherman.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    z-index: 1;
+}
+.background-blur3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(imgs/gabigolTreino.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    z-index: 1;
+}
+.background-blur4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(imgs/selecaoTreino.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    z-index: 1;
+}
+.background-blur5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(imgs/barca.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    z-index: 1;
+}
+.background-blur6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(imgs/francaCampea.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    z-index: 1;
+}
+.background-blur7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(imgs/zidane.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    z-index: 1;
+}
+.background-blur8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(imgs/selecaoCampea.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    z-index: 1;
+}
+.background-blur9 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(imgs/espanha.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    z-index: 1;
+}
+.background-blur10 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(imgs/nike.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    z-index: 1;
+}
+.background-blur11 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(imgs/Alisha-Career.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    z-index: 1;
+}
+.background-blur12 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(imgs/USA\ Futebol\ Feminino.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    z-index: 1;
+}
+.background-blur13 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(imgs/cortaFlamengo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    z-index: 1;
+}
+.background-blur14 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(imgs/selecaoCorta.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    z-index: 1;
+}
+
+
+.filhoUm:hover .background-blur {
+    transform: rotateY(180deg);
+    filter: blur(4px);
+    cursor: pointer;
+}
+.filhoDois:hover .background-blur2 {
+    transform: rotateY(180deg);
+    filter: blur(4px);
+    cursor: pointer;
+}
+.filhoUm:hover .background-blur3 {
+    transform: rotateY(180deg);
+    filter: blur(4px);
+    cursor: pointer;
+}
+.filhoDois:hover .background-blur4 {
+    transform: rotateY(180deg);
+    filter: blur(4px);
+    cursor: pointer;
+}
+.filhoUm:hover .background-blur5 {
+    transform: rotateY(180deg);
+    filter: blur(4px);
+    cursor: pointer;
+}
+.filhoDois:hover .background-blur6 {
+    transform: rotateY(180deg);
+    filter: blur(4px);
+    cursor: pointer;
+}
+.filhoUm:hover .background-blur7 {
+    transform: rotateY(180deg);
+    filter: blur(4px);
+    cursor: pointer;
+}
+.filhoDois:hover .background-blur8 {
+    transform: rotateY(180deg);
+    filter: blur(4px);
+    cursor: pointer;
+}
+.filhoUm:hover .background-blur9 {
+    transform: rotateY(180deg);
+    filter: blur(4px);
+    cursor: pointer;
+}
+.filhoDois:hover .background-blur10 {
+    transform: rotateY(180deg);
+    filter: blur(4px);
+    cursor: pointer;
+}
+.filhoUm:hover .background-blur11 {
+    transform: rotateY(180deg);
+    filter: blur(4px);
+    cursor: pointer;
+}
+.filhoDois:hover .background-blur12 {
+    transform: rotateY(180deg);
+    filter: blur(4px);
+    cursor: pointer;
+}
+.filhoUm:hover .background-blur13 {
+    transform: rotateY(180deg);
+    filter: blur(4px);
+    cursor: pointer;
+}
+.filhoDois:hover .background-blur14 {
+    transform: rotateY(180deg);
+    filter: blur(4px);
+    cursor: pointer;
+}
+/*fundo dos container */
+
+
+/*logo dos containers */
+.logoNba {
+    transition: transform 0.3s ease;
+    z-index: 2;
+    position: relative;
+}
+.logoNfl {
+    transition: transform 0.3s ease;
+    z-index: 2;
+    position: relative;
+}
+.logoTreinoPsg{
+    transition: transform 0.3s ease;
+    z-index: 2;
+    position: relative;
+}
+.logoTreinoSeelecao{
+    transition: transform 0.3s ease;
+    z-index: 2;
+    position: relative;  
+}
+.logoJogadorClube{
+    transition: transform 0.3s ease;
+    z-index: 2;
+    position: relative;  
+}
+.logoJogadorSelecao{
+    transition: transform 0.3s ease;
+    z-index: 2;
+    position: relative;  
+}
+.logoRetroClube{
+    transition: transform 0.3s ease;
+    z-index: 2;
+    position: relative;  
+}
+.logoRetroSelecao{
+    transition: transform 0.3s ease;
+    z-index: 2;
+    position: relative;  
+}
+.logoSelecoes{
+    transition: transform 0.3s ease;
+    z-index: 2;
+    position: relative;
+}
+.logoCasual{
+    transition: transform 0.3s ease;
+    z-index: 2;
+    position: relative;
+}
+
+
+.filhoUm:hover .logoNba {
+    transform: scale(1.2);
+}
+.filhoDois:hover .logoNfl {
+    transform: scale(1.12);
+}
+.filhoUm:hover .logoTreinoPsg {
+    transform: scale(1.3);
+}
+.filhoDois:hover .logoTreinoSeelecao {
+    transform: scale(1.3);
+}
+.filhoUm:hover .logoJogadorClube {
+    transform: scale(1.3);
+}
+.filhoDois:hover .logoJogadorSelecao {
+    transform: scale(1.3);
+}
+.filhoUm:hover .logoRetroClube {
+    transform: scale(1.2);
+}
+.filhoDois:hover .logoRetroSelecao{
+    transform: scale(1.2);
+}
+.filhoUm:hover .logoSelecoes {
+    transform: scale(1.25);
+}
+.filhoDois:hover .logoCasual{
+    transform: scale(1.2);
+}
+/*logo dos containers */
+
+
+.nomeCategoria{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 100;
+    font-size: 33px;
+    text-shadow: 10px 10px 20px rgb(244, 244, 244);
+    color: #000000;
+    z-index: 200;
+    transition: transform 200ms ease-in;
+
+}
+.nomeCategoriaSelecao{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    text-shadow: 10px 10px 20px rgb(244, 244, 244);
+    color: #000000;
+    z-index: 200;
+    transition: transform 200ms ease-in;
+}
+.nomeCampeonato{
+    text-align: center;
+}
+
+
+.filhoUm:hover .nomeCategoria{
+    transform: scale(1.3);
+}
+.filhoUm:hover .nomeCategoriaSelecao{
+    transform: scale(1.2);
+}
+.filhoDois:hover .nomeCategoria{
+    transform: scale(1.2);
 }
