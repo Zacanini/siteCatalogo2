@@ -11,9 +11,10 @@ window.addEventListener('scroll', function () {
     menuSanduiche.style.display = 'flex'; // Exibe o menu sanduíche
   } else {
     menuSanduiche.style.display = 'none'; // Oculta o menu sanduíche
-    esconderPaineis(); // Oculta os painéis quando o scroll é menor que 360
   }
 });
+
+
 
 // Função para mostrar o painel com animação
 function mostrarPainel(painel) {
@@ -43,13 +44,14 @@ botaoMais.addEventListener('click', () => {
 
   setTimeout(() => {
     document.querySelector('.ContainerpainelLateral').style.display = 'none';
+    document.querySelector('.ContainerpainelLateral2').style.animation = 'none';
     document.querySelector('.ContainerpainelLateral2').style.display = 'flex';
     painelAtivo = 'painel2'; // Atualiza o painel ativo
   }, 300); // Sincroniza com o tempo de rotação
 });
 
 botaoVoltar.addEventListener('click', () => {
-  const items = document.querySelectorAll('.ContainerpainelLateral2 .item');
+  const items = document.querySelectorAll('.ContainerpainelLateral2 .item2');
   items.forEach(item => {
     item.classList.add('flipped');
     setTimeout(() => {
@@ -59,7 +61,9 @@ botaoVoltar.addEventListener('click', () => {
 
   setTimeout(() => {
     document.querySelector('.ContainerpainelLateral2').style.display = 'none';
+    document.querySelector('.ContainerpainelLateral').style.animation = 'none';
     document.querySelector('.ContainerpainelLateral').style.display = 'flex';
+    
     painelAtivo = 'painel1'; // Atualiza o painel ativo
   }, 300); // Sincroniza com o tempo de rotação
 });
@@ -71,23 +75,21 @@ function alternarMenuSanduiche() {
   menuAberto = !menuAberto;
 
   if (menuAberto) {
-    linhas[0].style.transform = 'rotate(90deg)';
+    linhas[0].style.transform = 'rotate(90deg) translateY(-10px) translateX(8px)';
     linhas[1].style.transform = 'rotate(90deg)';
-    linhas[2].style.transform = 'rotate(90deg)';
+    linhas[2].style.transform = 'rotate(90deg) translateY(10px) translateX(-8px)';
     mostrarPainel(painel);
   } else {
-    linhas[0].style.transform = 'rotate(0)';
+    linhas[0].style.transform = 'rotate(0) translateY(0)';
     linhas[1].style.transform = 'rotate(0)';
-    linhas[2].style.transform = 'rotate(0)';
+    linhas[2].style.transform = 'rotate(0) translateY(0)';
     esconderPainel(painel);
   }
 }
-
 document.getElementById('menuSanduiche').addEventListener('click', alternarMenuSanduiche);
 
 // Controlando rolagem dos botões do painel lateral ao serem clicados
 const menuItems = document.querySelectorAll('.ContainerpainelLateral .item a'); // Seleciona todos os links do primeiro painel
-
 menuItems.forEach(menuItem => {
   menuItem.addEventListener('click', function (event) {
     event.preventDefault(); // Evita o comportamento padrão de clique do link
