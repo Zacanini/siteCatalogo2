@@ -137,17 +137,7 @@
     #logo{
         font-size: 1.7rem;
     }
-    .primeiroElemento {
-        height: 150px;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        background-image: linear-gradient(to right, #000000, #13006D);
-        margin: 10px 10px;
-        overflow: hidden;
-    
-    
-    }
+    .primeiroElemento,
     .segundoElemento {
         height: 150px;
         display: flex;
@@ -258,19 +248,9 @@
         font-size: 2.0rem;
         top:20%
     }
-    .primeiroElemento {
-        height: 180px;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        background-image: linear-gradient(to right, #000000, #13006D);
-        margin: 10px 10px;
-        overflow: hidden;
-    
-    
-    }
+    .primeiroElemento,
     .segundoElemento {
-        height: 180px;
+        height: 150px;
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -297,46 +277,46 @@
     }
     .levandowiski {
         width: 280px;
-        margin-bottom: 100px;
+        margin-bottom: 130px;
     }
     .mbape {
         width: 230px;
-        margin-bottom: 50px;
+        margin-bottom: 80px;
     }
     .miniJogador2{
         width: 260px;
         margin-bottom: 80px;
     }
     .ronaldo{
-        width: 210px;
+        width: 200px;
     }
     .lebrom{
         width: 230px;
-        margin-bottom: 50px;
+        margin-bottom: 80px;
     }
     .benzema{
         width: 220px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
     .puyol{
         width: 220px;
-        padding-bottom: 40px;
+        padding-bottom: 70px;
     }
     .romario{
         width: 300px;
-        margin-bottom: 30px;
+        margin-bottom: 60px;
         
     }
     .marta{
         width: 210px;
-        margin-bottom: 30px;
+        margin-bottom: 60px;
     }
     .ronaldinho{
         width: 210px;
-        margin-bottom: 29px;
+        margin-bottom: 30px;
     }
     .neymar{
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         width: 220px;
     }
     .titulo {
