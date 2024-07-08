@@ -5,12 +5,16 @@ let menuAberto = false;
 // Controlando painel lateral
 window.addEventListener('scroll', function () {
   const menuSanduiche = document.getElementById('menuSanduiche');
+  const painel1 = document.querySelector('.ContainerpainelLateral');
+  const painel2 = document.querySelector('.ContainerpainelLateral2');
   const scrollTop = window.scrollY;
 
-  if (scrollTop > 360) {
+  if (scrollTop > 360 ) {
     menuSanduiche.style.display = 'flex'; // Exibe o menu sanduíche
   } else {
     menuSanduiche.style.display = 'none'; // Oculta o menu sanduíche
+    painel1.style.display = 'none';
+    painel2.style.display = 'none';
   }
 });
 

@@ -21,19 +21,17 @@ figure {
     justify-content: center;
     align-items: center;
 }
-
 a {
     text-decoration: none;
     text-transform: uppercase;
     font-family: "Dela Gothic One", sans-serif;
+    font-weight: 100;
     font-size: 8px;
     color: #000000;
 }
-
 figcaption {
     text-align: center;
 }
-
 .grid figure img {
     transition: transform 0.2s ease-in-out;
     /* Transição suave para o efeito de hover */
@@ -50,11 +48,9 @@ figcaption {
 .grid figure .escudoLyon{
     width: 55px;
 }
-
 .grid figure .escudoPequenoSuper{
     width: 75px;
 }
-
 /* Estilo para imagens no hover (passar o mouse) */
 .grid figure img:hover {
     transform: scale(1.1);
@@ -62,4 +58,95 @@ figcaption {
     z-index: 1;
     /* Garante que a imagem fique sobreposta a outros elementos no hover */
 
+}
+
+/*tablets pequenos*/
+@media (min-width: 455px) and (max-width: 659px) {
+   
+}
+/*tablets grandes*/
+@media (min-width: 660px) and (max-width:800px){
+    a {
+        font-size: 10px; 
+    }
+    .grid figure img {
+        width: 40px;
+    }
+    .grid figure .escudoPequeno{
+        width: 50px;
+    }
+    .grid figure .escudoGrande{
+        width: 35px;
+    }
+    .grid figure .escudoLyon{
+        width: 60px;
+    }
+    .grid figure .escudoPequenoSuper{
+        width: 80px;
+    }
+    /* Estilo para imagens no hover (passar o mouse) */
+    .grid figure img:hover {
+        transform: scale(1.1);
+        /* Aumenta a imagem em 10% no hover */
+        z-index: 1;
+        /* Garante que a imagem fique sobreposta a outros elementos no hover */
+    
+    }
+}
+/*notebooks*/
+@media (min-width: 801px) and (max-width: 1025px) {
+    a {
+        font-size: 10px; 
+    }
+    .grid figure img {
+        width: 45px;
+    }
+    .grid figure .escudoPequeno{
+        width: 55px;
+    }
+    .grid figure .escudoGrande{
+        width: 40px;
+    }
+    .grid figure .escudoLyon{
+        width: 66px;
+    }
+    .grid figure .escudoPequenoSuper{
+        width: 85px;
+    }
+    /* Estilo para imagens no hover (passar o mouse) */
+    .grid figure img:hover {
+        transform: scale(1.1);
+        /* Aumenta a imagem em 10% no hover */
+        z-index: 1;
+        /* Garante que a imagem fique sobreposta a outros elementos no hover */
+    
+    }
+}
+@media (min-width: 1025px){
+    a {
+        font-size: 12px; 
+    }
+    .grid figure img {
+        width: 55px;
+    }
+    .grid figure .escudoPequeno{
+        width: 60px;
+    }
+    .grid figure .escudoGrande{
+        width: 50px;
+    }
+    .grid figure .escudoLyon{
+        width: 71px;
+    }
+    .grid figure .escudoPequenoSuper{
+        width: 90px;
+    }
+    /* Estilo para imagens no hover (passar o mouse) */
+    .grid figure img:hover {
+        transform: scale(1.1);
+        /* Aumenta a imagem em 10% no hover */
+        z-index: 1;
+        /* Garante que a imagem fique sobreposta a outros elementos no hover */
+    
+    }
 }

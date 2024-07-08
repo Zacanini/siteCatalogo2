@@ -1,0 +1,372 @@
+
+/*tablets pequenos*/
+@media (min-width: 455px) and (max-width: 659px) {
+    #imgInicial{
+        height: 340px;
+    }
+    #logo{
+        font-size: 1rem;
+    }
+}
+/*tablets grandes*/
+@media (min-width: 660px) and (max-width:800px) {
+    #imgInicial{
+        height: 450px;
+    }
+    #logo{
+        font-size: 1.4rem;
+    }
+    .primeiroElemento {
+        height: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-image: linear-gradient(to right, #000000, #13006D);
+        margin: 10px 10px;
+        overflow: hidden;
+    
+    
+    }
+    .segundoElemento {
+        height: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-image: linear-gradient(to left, #000000, #13006D);
+        margin: 10px 10px;
+        overflow: hidden;
+    
+    }
+    .logo {
+        font-family: "Dela Gothic One", sans-serif;
+        font-size: 0.9rem;
+        letter-spacing: 0.81rem;
+        font-style: normal;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    
+    }
+    .miniJogador{
+        width: 130px;
+    }
+    .messi {
+        width: 150px;
+        margin-top: 15px;
+    }
+    .levandowiski {
+        width: 230px;
+        margin-bottom: 100px;
+    }
+    .mbape {
+        width: 180px;
+        margin-bottom: 40px;
+    }
+    .miniJogador2{
+        width: 210px;
+        margin-bottom: 80px;
+    }
+    .ronaldo{
+        width: 160px;
+    }
+    .lebrom{
+        width: 180px;
+        margin-bottom: 50px;
+    }
+    .benzema{
+        width: 170px;
+        margin-bottom: 20px;
+    }
+    .puyol{
+        width: 170px;
+        padding-bottom: 40px;
+    }
+    .romario{
+        width: 250px;
+        margin-bottom: 30px;
+        
+    }
+    .marta{
+        width: 160px;
+        margin-bottom: 30px;
+    }
+    .ronaldinho{
+        width: 160px;
+        margin-bottom: 29px;
+    }
+    .neymar{
+        margin-bottom: 20px;
+        width: 170px;
+    }
+    .titulo {
+        font-size: 18px;
+        letter-spacing: 0.3rem;
+    }
+    .span2 {
+        font-size: 14px;
+        letter-spacing: 0.3rem;
+    }
+    .containerNomeCampeonato {
+        margin-top: 35px;
+        padding-top: 35px;
+    }
+    .containerNomeCampeonato img{
+        width: 55px;
+    }
+    .containerNomeCampeonato .imgLU{
+        width: 85px;
+    }
+    .nomeCampeonato {
+        font-size: 20px;
+        padding: 10px 15px;
+    }
+    .containerCardPai{
+        gap: 25px;
+        flex-direction: row;
+    }
+    .filhoUm{
+        margin-bottom: 30px;
+    }
+
+    
+}
+/*notebooks*/
+@media (min-width: 801px) and (max-width: 1025px)  {
+    #imgInicial{
+        height: 510px;
+    }
+    #logo{
+        font-size: 1.7rem;
+    }
+    .primeiroElemento {
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-image: linear-gradient(to right, #000000, #13006D);
+        margin: 10px 10px;
+        overflow: hidden;
+    
+    
+    }
+    .segundoElemento {
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-image: linear-gradient(to left, #000000, #13006D);
+        margin: 10px 10px;
+        overflow: hidden;
+    
+    }
+    .logo {
+        font-family: "Dela Gothic One", sans-serif;
+        font-size: 1.2rem;
+        letter-spacing: 0.81rem;
+        font-style: normal;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    
+    }
+    .miniJogador{
+        width: 150px;
+    }
+    .messi {
+        width: 170px;
+        margin-top: 15px;
+    }
+    .levandowiski {
+        width: 250px;
+        margin-bottom: 100px;
+    }
+    .mbape {
+        width: 200px;
+        margin-bottom: 50px;
+    }
+    .miniJogador2{
+        width: 230px;
+        margin-bottom: 80px;
+    }
+    .ronaldo{
+        width: 180px;
+    }
+    .lebrom{
+        width: 200px;
+        margin-bottom: 50px;
+    }
+    .benzema{
+        width: 190px;
+        margin-bottom: 20px;
+    }
+    .puyol{
+        width: 190px;
+        padding-bottom: 40px;
+    }
+    .romario{
+        width: 270px;
+        margin-bottom: 30px;
+        
+    }
+    .marta{
+        width: 180px;
+        margin-bottom: 30px;
+    }
+    .ronaldinho{
+        width: 180px;
+        margin-bottom: 29px;
+    }
+    .neymar{
+        margin-bottom: 20px;
+        width: 190px;
+    }
+    .titulo {
+        font-size: 23px;
+        letter-spacing: 0.4rem;
+    }
+    .span2 {
+        font-size: 19px;
+        letter-spacing: 0.4rem;
+    }
+    .containerNomeCampeonato {
+        margin-top: 38px;
+        padding-top: 38px;
+    }
+    .containerNomeCampeonato img{
+        width: 65px;
+    }
+    .containerNomeCampeonato .imgLU{
+        width: 100px;
+    }
+    .nomeCampeonato {
+        font-size: 23px;
+        padding: 15px 20px;
+    }
+    .containerCardPai{
+        gap: 25px;
+        flex-direction: row;
+    }
+    .filhoUm{
+        margin-bottom: 30px;
+    }
+    
+}
+/*computadores*/
+@media (min-width: 1025px)  {
+    #imgInicial{
+        height: 650px;
+    }
+    #logo{
+        font-size: 2.0rem;
+        top:20%
+    }
+    .primeiroElemento {
+        height: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-image: linear-gradient(to right, #000000, #13006D);
+        margin: 10px 10px;
+        overflow: hidden;
+    
+    
+    }
+    .segundoElemento {
+        height: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-image: linear-gradient(to left, #000000, #13006D);
+        margin: 10px 10px;
+        overflow: hidden;
+    
+    }
+    .logo {
+        font-family: "Dela Gothic One", sans-serif;
+        font-size: 1.5rem;
+        letter-spacing: 0.81rem;
+        font-style: normal;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    
+    }
+    .miniJogador{
+        width: 180px;
+    }
+    .messi {
+        width: 200px;
+        margin-top: 23px;
+    }
+    .levandowiski {
+        width: 280px;
+        margin-bottom: 100px;
+    }
+    .mbape {
+        width: 230px;
+        margin-bottom: 50px;
+    }
+    .miniJogador2{
+        width: 260px;
+        margin-bottom: 80px;
+    }
+    .ronaldo{
+        width: 210px;
+    }
+    .lebrom{
+        width: 230px;
+        margin-bottom: 50px;
+    }
+    .benzema{
+        width: 220px;
+        margin-bottom: 20px;
+    }
+    .puyol{
+        width: 220px;
+        padding-bottom: 40px;
+    }
+    .romario{
+        width: 300px;
+        margin-bottom: 30px;
+        
+    }
+    .marta{
+        width: 210px;
+        margin-bottom: 30px;
+    }
+    .ronaldinho{
+        width: 210px;
+        margin-bottom: 29px;
+    }
+    .neymar{
+        margin-bottom: 20px;
+        width: 220px;
+    }
+    .titulo {
+        font-size: 27px;
+        letter-spacing: 0.4rem;
+    }
+    .span2 {
+        font-size: 27px;
+        letter-spacing: 0.4rem;
+    }
+    .containerNomeCampeonato {
+        margin-top: 40px;
+        padding-top: 40px;
+    }
+    .containerNomeCampeonato img{
+        width: 70px;
+    }
+    .containerNomeCampeonato .imgLU{
+        width: 130px;
+    }
+    .nomeCampeonato {
+        font-size: 27px;
+        padding: 15px 20px;
+    }
+    .containerCardPai{
+        gap: 25px;
+        flex-direction: row;
+    }
+    .filhoUm{
+        margin-bottom: 30px;
+    }
+    
+}
