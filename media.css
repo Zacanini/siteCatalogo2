@@ -159,6 +159,7 @@
     }
     .miniJogador{
         width: 150px;
+        
     }
     .messi {
         width: 170px;
@@ -237,6 +238,7 @@
     .filhoUm{
         margin-bottom: 30px;
     }
+   
     
 }
 /*computadores*/
@@ -270,10 +272,11 @@
     }
     .miniJogador{
         width: 180px;
+        margin-bottom: 28px;
     }
     .messi {
         width: 200px;
-        margin-top: 23px;
+        margin-top: 13px;
     }
     .levandowiski {
         width: 280px;
@@ -347,6 +350,13 @@
     }
     .filhoUm{
         margin-bottom: 30px;
+    }
+    .card {
+        width: 400px;
+        height: 500px;
+        
+    
+        box-shadow: 0 5px 10px rgb(0, 0, 0);
     }
     
 }

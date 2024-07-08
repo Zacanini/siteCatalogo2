@@ -866,3 +866,75 @@ span {
 .filhoDois:hover .nomeCategoria{
     transform: scale(1.2);
 }
+
+/*rodape */
+
+.containerRodape{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    margin: 20px; 
+    background-color:rgb(24, 24, 133);
+}
+.containerRodape h1{
+    text-align: flex-start;
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    margin: 20px;
+    letter-spacing: 0.2rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 10px 10px 20px rgb(0, 0, 0);
+    
+}
+
+.containerLoja{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 30px;
+    height: 125px;
+}
+.containerLoja img{
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    width: 30px;
+    margin: 0 2px;
+}
+.containerLoja img:hover{
+    transform: scale(1.2);
+    /* Aumenta a imagem em 10% no hover */
+    z-index: 1; 
+    
+}
+
+.containerMeuContato{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 30px;
+    height: 125px;
+}
+
+.containerMeuContato h2{
+    text-align: start;
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 8px;
+    font-weight: 100;
+    letter-spacing: 0.2rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 10px 10px 20px rgb(0, 0, 0);
+}
+.containerMeuContato a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6;
+    color: rgb(206, 206, 206);
+    text-shadow: 10px 10px 20px rgb(0, 0, 0);
+}
+.containerMeuContato a:hover{
+    color: rgb(10, 10, 10);
+}
